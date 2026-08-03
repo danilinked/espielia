@@ -4,8 +4,6 @@ import { ArrowUpRight } from "lucide-react";
 const links = [
   { label: "Email", href: "mailto:espielia@gmail.com", text: "espielia@gmail.com" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/elia-espinosa-jerez/", text: "https://www.linkedin.com/in/elia-espinosa-jerez/" },
-  { label: "Dribbble", href: "https://dribbble.com", text: "dribbble.com/designer" },
-  { label: "Behance", href: "https://behance.net", text: "behance.net/designer" },
 ];
 
 const ContactSection = () => {
@@ -36,14 +34,6 @@ const ContactSection = () => {
             </ScrollReveal>
           ))}
         </div>
-
-        <ScrollReveal delay={0.4}>
-          <div className="mt-12">
-            <a href="/resume.pdf" className="cta-secondary">
-              Descargar CV
-            </a>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );
