@@ -23,4 +23,11 @@ export default tseslint.config(
       "@typescript-eslint/no-unused-vars": "off",
     },
   },
+  {
+    files: ["src/components/ui/**/*.{ts,tsx}"],
+    rules: {
+      // UI primitives intentionally expose components alongside styles, hooks, and helpers.
+      "react-refresh/only-export-components": "off",
+    },
+  },
 );
