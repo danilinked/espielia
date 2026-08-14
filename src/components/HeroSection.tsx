@@ -27,7 +27,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="body-lg max-w-xl mb-12 font-light text-primary text-base">Con más de 10 años de experiencia, creo productos intuitivos e identidades visuales sólidas. Creo que el buen diseño es invisible, simplemente funciona.
+              className="body-lg max-w-xl mb-12 font-light text-primary text-base">Con más de 10 años de experiencia, creo productos intuitivos e identidades visuales sólidas. Creo que el buen diseño no necesita explicarse.
 
             </motion.p>
             <motion.div
