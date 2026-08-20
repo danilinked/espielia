@@ -16,7 +16,7 @@ const experienceItems = [
 { role: "Diseño Web", company: "IESTRATEGIC", period: "2013 – 2014" },
 { role: "Diseño Web", company: "BRAVABUERO", period: "2012 – 2013" },
 { role: "Fotógrafa", company: "FLASHPOINT", period: "2010 – 2012" },
-{ role: "Diseño Gráfico / Ilustración", company: "A.BÍS", period: "2010 – 2011" }];
+{ role: "Diseño Gráfico / Ilustración", company: "A.BÍS", period: "2007 – 2010" }];
 
 
 const AboutSection = () => {
