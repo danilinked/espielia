@@ -12,8 +12,8 @@ const experienceItems = [
 { role: "Diseñadora UX/UI", company: "Degusta Box", period: "Actualidad" },
 { role: "Diseñadora UX/UI", company: "Click Consulting", period: "2016 – 2018" },
 { role: "Diseño Web", company: "KIMIKA", period: "2015 – 2016" },
-{ role: "Diseño Gráfico / Pdv", company: "Studio Creativo", period: "2014 – 2015" },
-{ role: "Diseñadora Junior", company: "Agencia Digital", period: "2013 – 2014" },
+{ role: "Diseño Gráfico / Pdv", company: "Estudio Maravillas", period: "2014 – 2015" },
+{ role: "Diseñadora Junior", company: "IESTRATEGIC", period: "2013 – 2014" },
 { role: "Freelance Designer", company: "Independiente", period: "2012 – 2013" },
 { role: "Diseño Web", company: "TechStart", period: "2011 – 2012" },
 { role: "Asistente de Diseño", company: "Marca Global", period: "2010 – 2011" },
@@ -83,5 +83,6 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
 
 
