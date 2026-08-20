@@ -5,7 +5,7 @@ const skills = [
 
 
 const tools = [
-"Figma", "Adobe Creative Suite", "Sketch", "Framer", "Webflow", "Notion"];
+"Figma", "Adobe Creative Suite", "Sketch", "Framer", "Webflow", "Notion", "Photoshop", "Illustrator", "Canva", "Premiere"];
 
 
 const experienceItems = [
@@ -82,4 +82,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-
