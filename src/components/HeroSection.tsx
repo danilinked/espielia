@@ -21,7 +21,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="heading-display mb-8 text-5xl lg:text-6xl xl:text-7xl">
               Diseñando experiencias digitales{" "}
-              <span className="text-accent">simples</span>.
+              <span className="text-accent">tontos</span>.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
