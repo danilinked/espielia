@@ -25,7 +25,7 @@ const courses = [
     period: "2025 - 2026",
   },
   {
-    title: "Máster en UX/UI: Diseño Web y Producto Digital",
+    title: "Máster en UX/UI: Fotógrafa y Producto Digital",
     institution: "Shifta by Elisava",
     period: "2023 - 2024",
   },
@@ -82,4 +82,5 @@ const TestimonialsSection = () => {
 };
 
 export default TestimonialsSection;
+
 
