@@ -9,13 +9,13 @@ const tools = [
 
 
 const experienceItems = [
-{ role: "Diseñadora UX/UI", company: "Degusta Box", period: "Actualidad" },
-{ role: "Diseñadora UX/UI", company: "Click Consulting", period: "2016 – 2018" },
+{ role: "Diseño UX/UI", company: "Degusta Box", period: "Actualidad" },
+{ role: "Diseño UX/UI", company: "Click Consulting", period: "2016 – 2018" },
 { role: "Diseño Web", company: "KIMIKA", period: "2015 – 2016" },
 { role: "Diseño Gráfico / Pdv", company: "Estudio Maravillas", period: "2014 – 2015" },
 { role: "Diseño Web", company: "IESTRATEGIC", period: "2013 – 2014" },
 { role: "Diseño Web", company: "BRAVABUERO", period: "2012 – 2013" },
-{ role: "Diseño Web", company: "FLASHPOINT", period: "2011 – 2012" },
+{ role: "Fotógrafa", company: "FLASHPOINT", period: "2010 – 2012" },
 { role: "Diseño Gráfico / Ilustración", company: "A.BÍS", period: "2010 – 2011" }];
 
 
