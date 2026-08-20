@@ -1,64 +1,85 @@
+import ScrollReveal from "./ScrollReveal";
+
+const skills = [
+"UX Research", "Product Design", "Branding", "Prototyping", "Design Systems", "Visual Design"];
+
+
+const tools = [
+"Figma", "Adobe Creative Suite", "Sketch", "Framer", "Webflow", "Notion"];
+
+
 const experienceItems = [
-  { role: "Diseñadora UX/UI", company: "Click Consulting", period: "2016 – 2018" },
-  { role: "Diseño Gráfico", company: "KIMIKA", period: "2015 – 2016" },
-  { role: "Diseñadora Visual", company: "Estudio Maravillas", period: "2014 – 2015" },
-  { role: "Diseñadora en Prácticas", company: "Estudio Gràfic", period: "2012 – 2013" },
-  { role: "Diseño Editorial", company: "Editorial Blanc", period: "2011 – 2012" },
-  { role: "Prácticas de Diseño", company: "Taller Visual", period: "2010 – 2011" },
-];
+{ role: "Diseñadora UX/UI", company: "Degusta Box", period: "2018 – Presente" },
+{ role: "Diseñadora UX/UI", company: "Click Consulting", period: "2016 – 2018" },
+{ role: "Diseño Gráfico", company: "KIMIKA", period: "2015 – 2016" },
+{ role: "Diseñadora Visual", company: "Studio Creativo", period: "2014 – 2015" },
+{ role: "Diseñadora Junior", company: "Agencia Digital", period: "2013 – 2014" },
+{ role: "Freelance Designer", company: "Independiente", period: "2012 – 2013" },
+{ role: "Diseño Web", company: "TechStart", period: "2011 – 2012" },
+{ role: "Asistente de Diseño", company: "Marca Global", period: "2010 – 2011" },
+{ role: "Becaria de Diseño", company: "Estudio Nova", period: "2009 – 2010" }];
+
 
 const AboutSection = () => {
   return (
-    <section id="about" className="w-full px-4 sm:px-6 lg:px-8 py-16 md:py-24 bg-white">
-      <div className="max-w-6xl mx-auto">
-        <div className="mb-12">
-          <h2 className="heading-lg mb-4">Sobre mí</h2>
-          <p className="text-muted-foreground max-w-2xl">
-            Diseñadora con más de una década de experiencia en proyectos de branding, diseño editorial y experiencia de usuario.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-            <h3 className="heading-sm mb-5">Sobre mí</h3>
-            <p className="text-sm text-muted-foreground">
-              Apasionada por el diseño y la creatividad, con un enfoque centrado en la simplicidad y la funcionalidad.
-            </p>
-          </div>
-          <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-            <h3 className="heading-sm mb-5">Habilidades</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-3 py-1 rounded-full bg-white border border-gray-200 text-foreground">Branding</span>
-              <span className="text-xs px-3 py-1 rounded-full bg-white border border-gray-200 text-foreground">Diseño Editorial</span>
-              <span className="text-xs px-3 py-1 rounded-full bg-white border border-gray-200 text-foreground">UX/UI</span>
-              <span className="text-xs px-3 py-1 rounded-full bg-white border border-gray-200 text-foreground">Tipografía</span>
-              <span className="text-xs px-3 py-1 rounded-full bg-white border border-gray-200 text-foreground">Ilustración</span>
-              <span className="text-xs px-3 py-1 rounded-full bg-white border border-gray-200 text-foreground">Dirección de Arte</span>
+    <section id="about" className="py-32 section-padding">
+      <div className="section-container">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+          <ScrollReveal>
+            <div>
+              <p className="label-text mb-4">Sobre mí</p>
+              <h2 className="heading-lg mb-8">Apasionada por crear experiencias que importan</h2>
+              <div className="space-y-5">
+                <p className="body-lg">Mi filosofía de diseño se centra en el diseño empático. Entender a las personas detrás de cada interfaz. Creo que los mejores productos son invisibles: no requieren explicación, simplemente funcionan.</p>
+                <p className="body-md">He tenido el privilegio de colaborar con equipos de fintech, salud, e-commerce y SaaS, aportando siempre una perspectiva holística que conecta el oficio visual con el pensamiento estratégico.</p>
+              </div>
             </div>
-          </div>
-          <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-            <h3 className="heading-sm mb-5">Experiencia</h3>
-            <div className="space-y-4">
-              {experienceItems.map((exp) =>
-                <div key={exp.period} className="flex justify-between items-start">
-                  <div>
-                    <p className="text-sm font-medium text-foreground">{exp.role}</p>
-                    <p className="text-sm text-muted-foreground">{exp.company}</p>
-                  </div>
-                  <p className="text-sm text-muted-foreground whitespace-nowrap ml-4">{exp.period}</p>
+          </ScrollReveal>
+
+          <div className="space-y-12">
+            <ScrollReveal delay={0.1}>
+              <div>
+                <h3 className="heading-sm mb-5">Especialidades</h3>
+                <div className="flex flex-wrap gap-2">
+                  {skills.map((s) =>
+                  <span key={s} className="project-tag">{s}</span>
+                  )}
                 </div>
-              )}
-            </div>
-          </div>
-          <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-            <h3 className="heading-sm mb-5">Educación</h3>
-            <p className="text-sm text-muted-foreground">
-              Grado en Diseño Gráfico
-            </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={0.2}>
+              <div>
+                <h3 className="heading-sm mb-5">Herramientas</h3>
+                <div className="flex flex-wrap gap-2">
+                  {tools.map((t) =>
+                  <span key={t} className="project-tag">{t}</span>
+                  )}
+                </div>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={0.3}>
+              <div>
+                <h3 className="heading-sm mb-5">Experiencia</h3>
+                <div className="space-y-4">
+                  {experienceItems.map((exp) =>
+                  <div key={exp.period} className="flex justify-between items-start">
+                      <div>
+                        <p className="text-sm font-medium text-foreground">{exp.role}</p>
+                        <p className="text-sm text-muted-foreground">{exp.company}</p>
+                      </div>
+                      <span className="text-xs text-muted-foreground whitespace-nowrap ml-4">{exp.period}</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
