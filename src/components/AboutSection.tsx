@@ -30,7 +30,7 @@ const AboutSection = () => {
               <h2 className="heading-lg mb-8">Apasionada por crear experiencias que importan</h2>
               <div className="space-y-5">
                 <p className="body-lg">Mi filosofía de diseño se centra en el diseño empático. Entender a las personas detrás de cada interfaz. Creo que los mejores productos son invisibles: no requieren explicación, simplemente funcionan.</p>
-                <p className="body-md">He tenido el privilegio de colaborar con equipos de fintech, salud, e-commerce y SaaS, aportando siempre una perspectiva holística que conecta el oficio visual con el pensamiento estratégico.</p>
+                <p className="body-md">He tenido el privilegio de trabajar con equipos de marketing, finanzas, ventas, operaciones... en sectores como; grandes superficies de consumo, cosmética, fintech, salud, e-commerce y SaaS, aportando siempre una perspectiva holística que conecta el oficio visual con el pensamiento estratégico.</p>
               </div>
             </div>
           </ScrollReveal>
@@ -82,3 +82,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
