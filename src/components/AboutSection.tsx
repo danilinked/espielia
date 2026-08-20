@@ -9,7 +9,7 @@ const tools = [
 
 
 const experienceItems = [
-{ role: "Diseñadora UX/UI", company: "Degusta Box", period: "2018 – Presente" },
+{ role: "Diseñadora UX/UI", company: "Degusta Box", period: "Actualidad" },
 { role: "Diseñadora UX/UI", company: "Click Consulting", period: "2016 – 2018" },
 { role: "Diseño Gráfico", company: "KIMIKA", period: "2015 – 2016" },
 { role: "Diseñadora Visual", company: "Studio Creativo", period: "2014 – 2015" },
@@ -83,3 +83,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
