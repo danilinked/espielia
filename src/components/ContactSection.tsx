@@ -12,8 +12,8 @@ const ContactSection = () => {
       <div className="section-container">
         <ScrollReveal>
           <p className="label-text mb-4">Contacto</p>
-          <h2 className="heading-display mb-8 max-w-4xl">Creemos algo significativo juntos.</h2>
-          <p className="body-lg max-w-2xl mb-16">Disponible para proyectos freelance, colaboraciones y oportunidades a tiempo completo. Hablemos de tu próximo proyecto.</p>
+          <h2 className="heading-display mb-8 max-w-4xl">Creemos algo juntos.</h2>
+          <p className="body-lg max-w-2xl mb-16">Disponible para proyectos freelance, colaboraciones y oportunidades a tiempo completo. ¡Hablemos!</p>
         </ScrollReveal>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl">
@@ -40,3 +40,4 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
