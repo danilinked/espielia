@@ -16,8 +16,7 @@ const experienceItems = [
 { role: "Fotógrafa", company: "IESTRATEGIC", period: "2013 – 2014" },
 { role: "Fotógrafa", company: "BRAVABUERO", period: "2012 – 2013" },
 { role: "Fotógrafa", company: "FLASHPOINT", period: "2011 – 2012" },
-{ role: "Diseño Gráfico / Ilustración", company: "A.BÍS", period: "2010 – 2011" },
-{ role: "Becaria de Diseño", company: "Estudio Nova", period: "2009 – 2010" }];
+{ role: "Diseño Gráfico / Ilustración", company: "A.BÍS", period: "2010 – 2011" }];
 
 
 const AboutSection = () => {
@@ -83,9 +82,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-
-
-
-
-
-
