@@ -2,7 +2,7 @@ import ScrollReveal from "./ScrollReveal";
 
 const steps = [
   { number: "01", title: "Investigación", description: "Comprender a los usuarios, el contexto del mercado y los objetivos del negocio a través de entrevistas, análisis de datos y auditorías competitivas." },
-  { number: "02", title: "Estrategia", description: "Definir la dirección del diseño, la arquitectura de información y las métricas clave de éxito." },
+  { number: "02", title: "Estrategia", description: "Definir la dirección del diseño, la arquitectura de información y las métricas." },
   { number: "03", title: "Wireframes", description: "Explorar estructura y disposición mediante prototipos de baja fidelidad, enfocándose en flujos de usuario y jerarquía de contenido." },
   { number: "04", title: "Diseño", description: "Crear interfaces de alta fidelidad con atención a la tipografía, color, espaciado y microinteracciones." },
   { number: "05", title: "Pruebas", description: "Validar diseños mediante pruebas de usabilidad, experimentos A/B y ciclos de retroalimentación con stakeholders." },
@@ -37,3 +37,4 @@ const ProcessSection = () => {
 };
 
 export default ProcessSection;
+
